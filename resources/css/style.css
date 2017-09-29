@@ -36,8 +36,17 @@ html {
 }
  .jumbotron-bike {
    background-image: url(../images/jumbotron-bike.jpg);
-
  }
+ .jumbotron-beer {
+   background-image: url(../images/jumbotron-beer.jpg);
+ }
+ .jumbotron-duffel {
+   background-image: url(../images/jumbotron-duffel.jpg);
+ }
+ .jumbotron-flowers {
+   background-image: url(../images/jumbotron-flowers.jpg);
+ }
+
  .jumbotron h1 {
    font-family: "Monoton";
    font-size: 7.1rem;
