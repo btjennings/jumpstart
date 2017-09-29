@@ -19,3 +19,21 @@ html {
    background-color: inherit;
    color: #399bd1;
  }
+
+ .jumbotron {
+   background-image: url(../images/jumbotron-bike.jpg);
+
+ }
+ .jumbotron h1 {
+   font-family: "Monoton";
+   font-size: 7.1rem;
+   color: white;
+   text-shadow: -1px -1px 0 #000;
+   text-shadow: 1px -1px 0 #000;
+   text-shadow: -1px 1px 0 #000;
+   text-shadow: 1px 1px 0 #000;
+ }
+
+ .jumbotron p {
+   color: white;
+ }
