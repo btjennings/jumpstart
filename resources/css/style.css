@@ -21,7 +21,7 @@ html {
  }
 
 .jumbotron {
-  height: 40rem;
+  height: 44rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ html {
   text-shadow: -1px 1px 0 #000;
   text-shadow: 1px 1px 0 #000;
   text-align: center;
-  padding-top: 11.85rem;
+  padding: 11.85rem 0;
 
 }
  .jumbotron-bike {
@@ -109,4 +109,15 @@ p, li {
  .help p {
    max-width: 42rem;
    margin: auto;
+ }
+
+ /*Mobile media query*/
+ @media only screen and (max-width: 500px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+
+  .relative-wrapper {
+    top: -12rem;
+  }
  }
